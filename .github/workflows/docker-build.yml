@@ -47,7 +47,7 @@ jobs:
           push: true
           tags: |
             ghcr.io/vixenquest/comfyui-flux-klein:latest
-            vixenquest/comfyui-flux-klein:latest
+            aptauyan/comfyui-flux-klein:latest
           build-args: |
             GITHUB_TOKEN=${{ secrets.GH_TOKEN }}
             CACHEBUST=${{ github.run_id }}
